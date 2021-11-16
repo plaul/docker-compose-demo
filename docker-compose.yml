@@ -12,7 +12,8 @@ services:
     ports:
       - $MYSQLDB_LOCAL_PORT:$MYSQLDB_DOCKER_PORT
     volumes:
-      - db:/var/lib/mysql
+      - ./.data:/var/lib/mysql # for data
+      
   app:
     depends_on:
       - mysqldb
@@ -29,8 +30,10 @@ services:
         "spring.datasource.password" : "$MYSQLDB_ROOT_PASSWORD",
         "spring.jpa.hibernate.ddl-auto" : "update"
       }'
-    volumes:
-      - .m2:/root/.m2
+
+    #volumes:
+     # - .m2:/root/.m2
+     # - .app:/root
     stdin_open: true
     tty: true
 
