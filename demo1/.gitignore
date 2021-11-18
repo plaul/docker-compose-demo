@@ -14,7 +14,7 @@ target/
 .sts4-cache
 
 # The Docker Compose File
-.data
+.data/
 
 ### IntelliJ IDEA ###
 .idea

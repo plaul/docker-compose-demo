@@ -9,3 +9,7 @@ Implements example from here: https://www.bezkoder.com/docker-compose-spring-boo
 - `docker container ls`   : List all running containers
 - `docker compose down`   : Stop the docker containers
 - `docker exec -it container_mysql bash` : Open a bash terminal in the container with the provided name
+
+## On Rasberry Pi 4
+- Make sure to use the relevant images in docker-compose.yml and .\demo\Dockerfile
+- Use same as above but with sude
