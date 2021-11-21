@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9955c9f7-4bde-4276-b775-ed4eed70e857" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.m2/copy_reference_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/.m2/copy_reference_file.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="9955c9f7-4bde-4276-b775-ed4eed70e857" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +31,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637065567830</updated>
       <workItem from="1637065570704" duration="630000" />
+      <workItem from="1637223316678" duration="21000" />
     </task>
     <servers />
   </component>
