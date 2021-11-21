@@ -12,7 +12,7 @@ services:
     ports:
       - $MYSQLDB_LOCAL_PORT:$MYSQLDB_DOCKER_PORT
     volumes:
-      - ./.data:/var/lib/mysql # for data
+      - dbdata:/var/lib/mysql # for data
       
   app:
     depends_on:
@@ -38,4 +38,4 @@ services:
     tty: true
 
 volumes:
-  db:
+  dbdata:
